@@ -1,0 +1,15 @@
+{
+  "name": "furniture-twenty-integration",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "check": "node --check src/twenty-mapper.js && node --check src/twenty-request-builder.js && node --check src/twenty-sender.js && node --check src/twenty-sync.js && node --check src/worker.js",
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^4.95.0"
+  }
+}

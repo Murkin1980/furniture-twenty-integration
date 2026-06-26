@@ -1,0 +1,11 @@
+name = "furniture-twenty-integration"
+main = "src/worker.js"
+compatibility_date = "2026-06-01"
+
+[vars]
+TWENTY_SYNC_ENABLED = "false"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "furniture_orders"
+database_id = "2f5eddec-b27c-4a05-a1aa-18c18e95ae5b"
